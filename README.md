@@ -1,6 +1,6 @@
-📚 #Seções
+# 📚Seções
 
-O site é composto por três seções:
+## O site é composto por três seções:
 
 Habilidades: Nele temos uma section com um link para parte do código que contém as habilidades do programador;
 
@@ -11,10 +11,10 @@ Experiência: Nele temos uma section com um link para parte do código que cont�
 Botão Contato: Leva até a section que possui os contatos do programdor para entrar em contato;
 
 
-💼 #Tecnologias utilizadas
+# 💼Tecnologias utilizadas
 
 
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+## Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 HTML;
 CSS;
