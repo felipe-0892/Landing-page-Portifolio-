@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: #219653;
+}
+
+/*-----------------Section skills (main)-------------------*/
+
+.section-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+    gap: 48px;
+
+    width: 1009px;
+    height: 960px;
+
+    background: #fefefe;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 940px;
+    right: 216px;
+    bottom: 1743px;
+    left: 216px;
+
+    background-color: red;
+}
+
+.section-skill > .title-skill{
+    width: 475px;
+    height: 126px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section-skill > .skill-card-geral{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+
+    width: 312px;
+    height: 690px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background-color: blue;
+
+    position: absolute;
+    top: 222px;
+    right: 696px;
+}
+
+.section-skill > .skill-card-geral > .skill-title{
+    margin: 12px 27px 12px 27px;
+}
+.section-skill > .skill-card-geral > .skill-text{
+    margin: 12px 27px 12px 27px;
+    text-align: center;
+}
+.section-skill > .skill-card-geral > .skill-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 12px;
+    padding-left: 36px;
+    gap: 10px;
+
+    width: 310px;
+    height: 236px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    background-color: #219653;
+}
+
+
+
+.section-skill > .skill-card-front > .skill-title{
+    margin: 12px 27px 12px 27px;
+}
+.section-skill > .skill-card-front > .skill-text{
+    margin: 12px 27px 12px 27px;
+    text-align: center;
+}
+.section-skill > .skill-card-front > .skill-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 12px;
+    padding-left: 36px;
+    gap: 10px;
+
+    width: 310px;
+    height: 421px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    background-color: #219653;
+}
+
+
+
+.section-skill > .skill-card-back > .skill-title{
+    margin: 12px 27px 12px 27px;
+}
+.section-skill > .skill-card-back > .skill-text{
+    margin: 12px 27px 12px 27px;
+    text-align: center;
+}
+.section-skill > .skill-card-back > .skill-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 12px;
+    padding-left: 36px;
+    gap: 10px;
+
+    width: 310px;
+    height: 458px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    background-color: #219653;
+}
+
+
+
+.section-skill > .skill-card-front{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+
+    width: 312px;
+    height: 690px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background-color: blue;
+
+    position: absolute;
+    top: 222px;
+    right: 348px;
+    bottom: 48px;
+    left: 348px;
+}
+
+.section-skill > .skill-card-back{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+
+    width: 312px;
+    height: 690px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background-color: blue;
+
+    position: absolute;
+    top: 222px;
+    right: 0;
+    bottom: 48px;
+    left: 696px;
+}
+
+
+

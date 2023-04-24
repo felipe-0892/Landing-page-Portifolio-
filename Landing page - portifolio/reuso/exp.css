@@ -1,0 +1,307 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+span{
+    color: #219653;
+}
+
+/*------------EXP-------------*/
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    gap: 48px;
+    
+    width: 1216px;
+    height: 570px;
+
+    background: #fefefe;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 2505px;
+    right: 112px;
+    bottom: 568px;
+    left: 112px;
+
+}
+
+.experiences > .exp-title{
+    width: 411px;
+    height: 126px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+
+    color: #1e1e1e;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*List 01*/
+.experiences > .exp-list-01 > .exp-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+
+    width: 800px;
+    height: 129px;
+
+    background: #d9d9d9;
+    border-radius: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experiences > .exp-list-01 > .exp-card > .exp-img{
+    width: 48px;
+    height: 48px;
+
+    border-radius: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 265px;
+    right: 728px;
+    bottom: 57px;
+    left: 24px;
+}
+
+.experiences > .exp-list-01 > .exp-card > .exp-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 6px;
+
+    width: 688px;
+    height: 81px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.experiences > .exp-list-01 > .exp-card > .exp-frame > .frame-title{
+    width: 200px;
+    height: 22px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 265px;
+    right: 518px;
+    bottom: 83px;
+    left: 88px;
+}
+
+.experiences > .exp-list-01 > .exp-card > .exp-frame > .frame-text-01{
+    width: 380px;
+    height: 17px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-top: 8px;
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 285px;
+    right: 378px;
+    bottom: 36px;
+    left: 128px;
+}
+
+.experiences > .exp-list-01 > .exp-card > .exp-frame > .frame-text-02{
+    width: 658px;
+    height: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 316px;
+    right: 378px;
+    bottom: 36px;
+    left: 292px;
+}
+/*List 02*/
+.experiences > .exp-list-02 > .exp-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+
+    width: 800px;
+    height: 129px;
+
+    background: #d9d9d9;
+    border-radius: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experiences > .exp-list-02 > .exp-card > .exp-img{
+    width: 48px;
+    height: 48px;
+
+    border-radius: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 442px;
+    right: 728px;
+    bottom: 57px;
+    left: 24px;
+}
+
+.experiences > .exp-list-02 > .exp-card > .exp-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 6px;
+
+    width: 688px;
+    height: 81px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.experiences > .exp-list-02 > .exp-card > .exp-frame > .frame-title{
+    width: 200px;
+    height: 22px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 442px;
+    right: 518px;
+    bottom: 83px;
+    left: 88px;
+}
+
+.experiences > .exp-list-02 > .exp-card > .exp-frame > .frame-text-01{
+    width: 380px;
+    height: 17px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-top: 8px;
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 462px;
+    right: 378px;
+    bottom: 36px;
+    left: 128px;
+}
+
+.experiences > .exp-list-02 > .exp-card > .exp-frame > .frame-text-02{
+    width: 658px;
+    height: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+
+    background-color: #d9d9d9;
+    color: #1e1e1e;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    position: absolute;
+    top: 492px;
+    right: 378px;
+    bottom: 36px;
+    left: 292px;
+}
+

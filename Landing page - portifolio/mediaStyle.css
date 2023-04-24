@@ -1,0 +1,39 @@
+/*-----------Versão Desktop e Laptop------------*/
+
+@media (max-width: 1920px){
+    .img{
+        width: 593px;
+        height: 593px;
+
+        position: absolute;
+        top: 259px;
+        right: 10px;
+        
+    
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 28px 0;
+        width: 1536px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1920px){
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 28px 0;
+        width: 1920px;
+        height: 10px;
+    }
+}
+
+/*-----------Versão Mobile------------*/

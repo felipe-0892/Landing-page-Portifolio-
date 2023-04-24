@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaStyle.css">
+    <title>Aula 01 | Layout Portifólio</title>
+</head>
+<body>
+    <header id="topo" class="header">
+        <h1 class="title">Felipe <span>Silva</span></h1>
+        <section class="sections">
+            <ul class="list-section">
+                <li class="item-section" ><a href="#skill">Habilidades</a></li>
+                <li class="item-section" ><a href="#portifolio">Portifólio</a></li>
+                <li class="item-section" ><a href="#exp">Experiência</a></li>
+            </ul>
+        </section>
+        <button class="contact-button"><a href="#help">CONTATO</a></button>
+    </header>
+
+    <main>
+        <section class="section-hero">
+            <div class="section-text">
+                <h1 class="title-main">Olá, muito prazer! <br> Sou o Felipe Silva<span>.</span></h1>
+                <p class="text-main">Programador desde 2019, com foco em desenvolvimento web e mobile, atuando em mais de 20 projetos.</p>
+            </div>
+            <div class="section-media">
+                <img class="github" src="/img/icons/logo-github.svg" alt="" srcset="">
+                <img class="linkedln" src="/img/icons/logo-linkedin.svg" alt="" srcset="">
+                <img class="youtube" src="/img/icons/logo-youtube.svg" alt="" srcset="">
+                <img class="instagram" src="/img/icons/logo-instagram.svg" alt="" srcset="">
+            </div>
+            <button class="button"><a href="">ENTRAR EM CONTATO</a></button>
+            <img class="img" src="/img/20220616_174839.jpg" alt="">
+        </section>
+        <!--Skills-->
+        <section id="skill" class="section-skill">
+            <h1 class="title-skill">Habilidades que <span>domino.</span></h1>
+
+            <div class="skill-card-geral">
+                <div class="skill-head">
+                    <div class="skill-icon">
+                        <img src="/img/icons/skill-icon code.svg" alt="">
+                    </div>
+                </div>
+                <h1 class="skill-title">Habilidades Gerais</h1>
+                <p class="skill-text">Tecnologias que utilizo no dia a dia da programção</p>
+                <div class="skill-list">
+                    <ul>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Docker</li>
+                        <li>VsCode</li>
+                        <li>Pascalzim</li> 
+                        <li>IntelliJ</li> 
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill-card-front">
+                <div class="skill-head">
+                    <div class="skill-icon">
+                        <img src="/img/icons/skill-icon front.svg" alt="">
+                    </div>
+                </div>
+                <h1 class="skill-title">Front-end</h1>
+                <p class="skill-text">Ferramentas utilizadas para criação de sistemas web</p>
+                <div class="skill-list">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Redux</li> 
+                        <li>Styled Components</li> 
+                        <li>Context API</li> 
+                        <li>Axios</li> 
+                        <li>React Query</li> 
+                        <li>Atomic Design</li> 
+                        <li>React Router</li> 
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill-card-back">
+                <div class="skill-head">
+                    <div class="skill-icon">
+                        <img src="/img/icons/skill-icon back.svg" alt="">
+                    </div>
+                </div>
+                <h1 class="skill-title">Back-end</h1>
+                <p class="skill-text">Controle de banco de dados e aplicações na nuvem</p>
+                <div class="skill-list">
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>SQL Server</li>
+                        <li>Express</li>
+                        <li>Autenticação JWT</li> 
+                        <li>Sequelize</li> 
+                        <li>Mongoose</li> 
+                        <li>Postgree</li> 
+                        <li>Mongo DB</li> 
+                        <li>Mongo DB Atlas</li> 
+                        <li>Heroku</li> 
+                        <li>AWS</li> 
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Projects-->
+        <section id="portifolio" class="projects">
+            <h1 class="project-title">Portifólio <span>de projetos.</span></h1>
+            <div class="project-list">
+                <div class="project-card-01">
+                    <div class="project-frame">
+                        <img src="/img/Rectangle-project-section.svg" alt="" srcset="">
+                    </div>
+                    <h1 class="frame-title">Portifolio Page</h1>
+                    <p class="frame-text">Aplicação em HTML e CSS + responsivo</p>
+                    <div class="project-card-access">
+                        <a class="access-icons" href=""><img src="/img/icons/material-symbols_link-chain.svg" alt=""></a>
+                        <a class="access-icons" href=""><img src="/img/icons/Vector git.svg" alt=""></a>
+                    </div>
+                </div>
+    
+                <div class="project-card-02">
+                    <div class="project-frame">
+                        <img src="/img/Rectangle-project-section.svg" alt="" srcset="">
+                    </div>
+                    <h1 class="frame-title">Page</h1>
+                    <p class="frame-text">Aplicação em HTML e CSS + responsivo</p>
+                    <div class="project-card-access">
+                        <a class="access-icons" href=""><img src="/img/icons/material-symbols_link-chain.svg" alt=""></a>
+                        <a class="access-icons" href=""><img src="/img/icons/Vector git.svg" alt=""></a>
+                    </div>
+                </div>  
+                
+                <div class="project-card-03">
+                    <div class="project-frame">
+                        <img src="/img/Rectangle-project-section.svg" alt="" srcset="">
+                    </div>
+                    <h1 class="frame-title">Page</h1>
+                    <p class="frame-text">Aplicação em HTML e CSS + responsivo</p>
+                    <div class="project-card-access">
+                        <a class="access-icons" href=""><img src="/img/icons/material-symbols_link-chain.svg" alt=""></a>
+                        <a class="access-icons" href=""><img src="/img/icons/Vector git.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Experiences-->
+        <section id="exp" class="experiences">
+            <h1 class="exp-title">Experiências <span>profissionais.</span></h1>
+            <div class="exp-list-01">
+                <div class="exp-card">
+                    <img class="exp-img" src="/img/Rectangle empresa 01.svg" alt="">
+                    <div class="exp-frame">
+                        <h1 class="frame-title">Front-end Developer</h1>
+                        <p class="frame-text-01">Frelancer - Agosto de 2019 até o presente momento</p>
+                        <p class="frame-text-02">Desenvolvedor web responsável por criar aplicações de larga escala para clientes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exp-list-02">
+                <div class="exp-card">
+                    <img class="exp-img" src="/img/Rectangle empresa 02.svg" alt="">
+                    <div class="exp-frame">
+                        <h1 class="frame-title">Developer FullStack</h1>
+                        <p class="frame-text-01">Frelancer - Agosto de 2019 até o presente momento</p>
+                        <p class="frame-text-02">Desenvolvedor web responsável por criar aplicações de larga escala para clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="help" class="contact">
+            <div class="contact-help">
+                    <h2 class="contact-title">Como posso <span>te ajudar?</span></h2>
+                    <div class="contact-info">
+                        <h2>Estou a disposição para ajudar no seu projeto ou na sua empresa</h2>
+                        <div class="info-mail">
+                            <div class="vector-info">
+                                <img src="/img/icons/mail-outline.svg" alt="">
+                            </div>
+                            <h3>felipesilvacosta22@gmail.com</h3>
+                        </div>
+                        <div class="info-phone">
+                            <div class="vector-info">
+                                <img src="/img/icons/phone-outline.svg" alt="">
+                            </div>
+                            <h3>(79) 9 9910-7255</h3>
+                    </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <h1><a href="#topo" title="Voltar">Felipe Silva</a></h1>
+        <div class="social-media">
+            <a class="media" href="#" target="_blank">
+                <img src="/img/icons/logo-linkedin.svg" alt="" srcset="">
+            </a>
+            <a class="media" href="#" target="_blank">
+                <img src="/img/icons/logo-github.svg" alt="" srcset="">
+            </a>
+            <a class="media" href="#" target="_blank">
+                <img src="/img/icons/logo-instagram.svg" alt="" srcset="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
